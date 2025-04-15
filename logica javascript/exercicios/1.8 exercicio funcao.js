@@ -4,6 +4,7 @@ function verificar(a) {
     } else {
         console.log(`Número negativo.`);
     }
+    return a
 }
 
 const verificacao = verificar(5)
